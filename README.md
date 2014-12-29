@@ -1,4 +1,4 @@
-les
+.dotfiles
 ========
 
     $ git clone https://github.com/kiyodori/dotfiles.git
