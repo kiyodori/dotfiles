@@ -1,5 +1,5 @@
 dotfiles
 ========
 
-  $ git clone https://github.com/kiyodori/dotfiles.git
-  $ chmod +x .dotfiles/setup.sh
+    $ git clone https://github.com/kiyodori/dotfiles.git
+    $ chmod +x .dotfiles/setup.sh
