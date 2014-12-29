@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Clone dotfiles from github
+Clone dotfiles from github.
