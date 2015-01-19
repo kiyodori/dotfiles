@@ -4,5 +4,10 @@ DOT_FILES=( .gitconfig .tmux.conf .vim/conf .vim/indent .vimrc .zshrc_config .zs
 
 for file in ${DOT_FILES[@]}
 do
-    ln -sf $HOME/dotfiles/$file $HOME/$file
+  if [ -a $HOME/$file ]; then
+    echo "既にファイルが存在します: $file"
+  else
+    ln -s $HOME/dotfiles/$file $HOME/$file
+    echo "シンボリックリンクを貼りました: $file"
+  fi
 done
