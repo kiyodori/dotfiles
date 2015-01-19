@@ -1,0 +1,9 @@
+[user]
+	name = kiyodori
+	email = kiyodori@yahoo.co.jp
+[core]
+	editor = vim -f
+[alias]
+	co = checkout
+	st = status
+	br = branch

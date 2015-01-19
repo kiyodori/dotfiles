@@ -23,9 +23,8 @@ setopt complete_aliases
 compinit
 
 #
-# anyenv
+# config
 #
-if [ -d $HOME/.anyenv ] ; then
-        export PATH="$HOME/.anyenv/bin:$PATH"
-        eval "$(anyenv init -)"
-fi
+for conf in $HOME/.zshrc_config/zsh_*; do
+    source ${conf};
+done
