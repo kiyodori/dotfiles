@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/yamaurakiyoto/Desktop/rails_heroku/app/views/layouts/partials'
-let g:netrw_dirhist_2='/'
-let g:netrw_dirhist_3='/Users/yamaurakiyoto'
-let g:netrw_dirhist_4='/Users/yamaurakiyoto/dotfiles/e22d9840f9ea2fee4716'
-let g:netrw_dirhist_5='/Users/yamaurakiyoto/Library/Preferences'
