@@ -42,6 +42,8 @@ endfor
 map <silent> [Tag]c :tablast <bar> tabnew<CR>
 " tx タブを閉じる
 map <silent> [Tag]x :tabclose<CR>
+" to 今いるタブ以外を閉じる
+map <silent> [Tag]o :tabonly<CR>
 " tn 次のタブ
 map <silent> [Tag]n :tabnext<CR>
 " tp 前のタブ
