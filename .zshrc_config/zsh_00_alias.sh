@@ -11,3 +11,6 @@ alias -g G='| grep'
 alias -g M='| more'
 alias -g H='| head'
 alias -g T='| tail'
+
+# ctags
+alias ctags='/usr/local/Cellar/ctags/5.8/bin/ctags'
