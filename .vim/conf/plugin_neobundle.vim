@@ -24,6 +24,7 @@ NeoBundle 'tpope/vim-fireplace'
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'rking/ag.vim'
 NeoBundle 'Shougo/vimfiler.vim'
+NeoBundle "slim-template/vim-slim"
 
 " for unite.vim
 NeoBundle 'Shougo/unite.vim'

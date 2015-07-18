@@ -7,5 +7,3 @@
 	co = checkout
 	st = status
 	br = branch
-[init]
-	templatedir = .git_for_ctags
