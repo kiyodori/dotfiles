@@ -1,7 +1,5 @@
 # .dotfiles
 
-========
-
 ## Installation
 
 ```bash
@@ -18,7 +16,7 @@ $ source bootstrap.sh
 
 For zsh filtering, install peco.
 
-#### Mac OS X / Homebrew
+##### Mac OS X / Homebrew
 
 ```bash
 brew tap peco/peco
