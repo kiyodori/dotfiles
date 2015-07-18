@@ -41,3 +41,5 @@ set laststatus=2
 set statusline=%F%r%h%=
 "yank to clipboard
 set clipboard=unnamed,autoselect
+" 保存時に行末の空白を除去する
+autocmd BufWritePre * :%s/\s\+$//ge
