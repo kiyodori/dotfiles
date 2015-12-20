@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DOT_DIR="$HOME/.dotfiles"
-DOT_FILES=( .gitconfig .tmux.conf .vim/conf .vim/indent .vimrc .zshrc_config .zshrc )
+DOT_FILES=( .gitconfig .tmux.conf .vim/conf .vim/indent .vimrc .zshrc_config .zshrc .zshrc.mine )
 
 link() {
   from="$1"

@@ -26,6 +26,7 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'Shougo/vimfiler.vim'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'slim-template/vim-slim'
+NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 
 " for unite.vim
 NeoBundle 'Shougo/unite.vim'
