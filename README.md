@@ -3,9 +3,8 @@
 ## Installation
 
 ```bash
-$ mkdir ~/.dotfiles
-$ cd ~/.dotfiles
-$ git clone https://github.com/kiyodori/dotfiles.git
+$ git clone https://github.com/kiyodori/dotfiles.git ~/.dotfiles
+$ cd .dotfiles
 $ git submodule init
 $ git submodule update
 $ chmod +x bootstrap.sh
