@@ -84,4 +84,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # my setting
-source $HOME/.dotfiles/.zshrc.mine
+source $HOME/.zshrc.mine
