@@ -21,3 +21,9 @@ For zsh filtering, install peco.
 brew tap peco/peco
 brew install peco
 ```
+
+### tmux
+
+````bash
+$ brew install reattach-to-user-namespace
+```
