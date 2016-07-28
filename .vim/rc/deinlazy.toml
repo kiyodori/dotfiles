@@ -1,0 +1,47 @@
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+on_if = 1
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+depends = 'context_filetype.vim'
+if = "has('lua')"
+on_event = 'InsertEnter'
+hook_source = '''
+  let g:neocomplete#enable_at_startup = 1
+  source ~/.vim/rc/plugins/neocomplete.rc.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+depends = 'neomru.vim'
+hook_source = 'source ~/.vim/rc/plugins/unite.rc.vim'
+hook_add = '''
+  nmap     <Space>u [unite]
+  nnoremap <silent> [unite]b  :<C-u>Unite buffer<CR>
+  nnoremap <silent> [unite]r  :<C-u>Unite file_rec<CR>
+  nnoremap <silent> [unite]f  :<C-u>UniteWithBufferDir file<CR>
+  nnoremap <silent> [unite]m  :<C-u>Unite mapping<CR>
+'''
+
+[[plugins]]
+repo = 'Shougo/vimfiler.vim'
+depends = 'unite.vim'
+on_map = {n = '<Plug>'}
+on_if = "isdirectory(bufname('%'))"
+hook_source = 'source ~/.vim/rc/plugins/vimfiler.rc.vim'
+hook_add = '''
+  nmap     <Space>f [VimFiler]
+  nnoremap <silent> [VimFiler]f :<C-u>VimFilerBufferDir -split -simple -winwidth=20 -no-quit<CR>
+'''
+
+[[plugins]]
+repo = 'Shougo/vimshell.vim'
+on_map = {n = '<Plug>'}
+hook_add = '''
+  nmap     <Space>s [VimShell]
+  nnoremap <silent> [VimShell]s  :<C-u>VimShell<CR>
+'''
