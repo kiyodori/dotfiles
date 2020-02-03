@@ -7,5 +7,13 @@
     {
         "key": "shift+alt+n",
         "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
     }
 ]
