@@ -16,3 +16,6 @@ for file in ${DOT_FILES[@]}
 do
   link "$DOT_DIR/$file" "$HOME/$file"
 done
+
+# vscode
+sh ~/.dotfiles/vscode/setup.sh

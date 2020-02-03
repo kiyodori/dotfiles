@@ -1,0 +1,55 @@
+{
+    "editor.wordWrap": "on",
+    "workbench.tree.indent": 14,
+    "explorer.confirmDragAndDrop": false,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "[sass]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+          "language": "vue",
+          "autoFix": true
+      }
+    ],
+    "vetur.format.defaultFormatterOptions": {
+      "prettier": {
+          "semi": false
+      }
+    },
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.validation.template": false,
+    "vetur.validation.style": false,
+    "editor.formatOnSave": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "php.suggest.basic": false,
+    "files.associations": {
+        "*.module": "php"
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "blade"
+        ]
+    },
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+}
