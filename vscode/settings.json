@@ -1,5 +1,7 @@
 {
     "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "workbench.tree.indent": 14,
     "explorer.confirmDragAndDrop": false,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
@@ -14,28 +16,18 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      {
-          "language": "vue",
-          "autoFix": true
-      }
-    ],
+    "editor.codeActionsOnSaveTimeout": 2000,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "vetur.format.defaultFormatterOptions": {
-      "prettier": {
-          "semi": false
-      }
+        "prettier": {
+            "semi": false
+        }
     },
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "vetur.validation.template": false,
     "vetur.validation.style": false,
-    "editor.formatOnSave": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
     "php.suggest.basic": false,
     "files.associations": {
         "*.module": "php"
@@ -51,5 +43,4 @@
             "blade"
         ]
     },
-    "markdown.extension.tableFormatter.normalizeIndentation": true,
 }
