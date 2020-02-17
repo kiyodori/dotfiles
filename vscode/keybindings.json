@@ -41,13 +41,13 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+b",
-        "command": "cursorLeftSelect",
+        "key": "ctrl+a",
+        "command": "cursorHome",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+a",
-        "command": "cursorRightSelect",
+        "key": "ctrl+shift+b",
+        "command": "cursorLeftSelect",
         "when": "textInputFocus"
     },
     {
