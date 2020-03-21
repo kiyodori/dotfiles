@@ -3,6 +3,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "workbench.tree.indent": 14,
+    "workbench.editor.enablePreview": false,
     "explorer.confirmDragAndDrop": false,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
     "editor.tabSize": 2,
@@ -43,4 +44,5 @@
             "blade"
         ]
     },
+    "vscode-w3cvalidation.validator-token": "Sat, 21 Mar 2020 14:35:18 GMT",
 }
