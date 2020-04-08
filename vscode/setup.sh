@@ -4,8 +4,6 @@
 if [ -e ~/Library/Application\ Support/Code/User ]; then
     cd ~/Library/Application\ Support/Code/User
 
-    mv keybindings.json keybindings.json.bak
-
     ln -is ~/.dotfiles/vscode/settings.json
     ln -is ~/.dotfiles/vscode/keybindings.json
 
