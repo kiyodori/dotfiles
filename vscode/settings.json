@@ -17,18 +17,6 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
-    "editor.codeActionsOnSaveTimeout": 2000,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "vetur.format.defaultFormatterOptions": {
-        "prettier": {
-            "semi": false
-        }
-    },
-    "vetur.format.defaultFormatter.js": "prettier-eslint",
-    "vetur.validation.template": false,
-    "vetur.validation.style": false,
     "php.suggest.basic": false,
     "files.associations": {
         "*.module": "php"
@@ -37,12 +25,10 @@
         "editor.tabSize": 4
     },
     "emmet.triggerExpansionOnTab": true,
-    "beautify.language": {
-        "html": [
-            "htm",
-            "html",
-            "blade"
-        ]
+    "editor.codeActionsOnSaveTimeout": 2000,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     },
-    "vscode-w3cvalidation.validator-token": "Mon, 23 Mar 2020 06:27:12 GMT",
+    "javascript.format.enable": false,
+    "vetur.format.enable": false,
 }
