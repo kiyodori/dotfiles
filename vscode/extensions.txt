@@ -1,9 +1,10 @@
 bmewburn.vscode-intelephense-client
+ikappas.phpcs
+onecentlin.laravel5-snippets
+felixfbecker.php-debug
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 EditorConfig.EditorConfig
-felixfbecker.php-debug
 ms-azuretools.vscode-docker
 octref.vetur
-onecentlin.laravel5-snippets
 yzhang.markdown-all-in-one
