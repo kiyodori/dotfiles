@@ -8,6 +8,9 @@
     "markdown.extension.tableFormatter.normalizeIndentation": true,
     "editor.tabSize": 2,
     "window.zoomLevel": 0,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
     "[sass]": {
         "editor.tabSize": 2
     },
@@ -78,5 +81,5 @@
         "_ide_helper.php",
         "_ide_helper_models"
     ],
-    "files.insertFinalNewline": true
+    "workbench.colorTheme": "GitHub Dark",
 }

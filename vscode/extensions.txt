@@ -8,3 +8,12 @@ EditorConfig.EditorConfig
 ms-azuretools.vscode-docker
 octref.vetur
 yzhang.markdown-all-in-one
+ms-ceintl.vscode-language-pack-ja
+github.github-vscode-theme
+pkief.material-icon-theme
+coenraads.bracket-pair-colorizer-2
+oderwat.indent-rainbow
+streetsidesoftware.code-spell-checker
+donjayamanne.githistory
+christian-kohler.path-intellisense
+ecmel.vscode-html-css
