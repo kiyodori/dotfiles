@@ -8,6 +8,6 @@
 	st = status
 	br = branch
 [merge]
-        ff = false
+	ff = false
 [pull]
-        rebase = true
+	rebase = merges
