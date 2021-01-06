@@ -17,3 +17,6 @@ streetsidesoftware.code-spell-checker
 donjayamanne.githistory
 christian-kohler.path-intellisense
 ecmel.vscode-html-css
+acidic9.p5js-snippets
+msjsdiag.debugger-for-chrome
+ritwickdey.liveserver

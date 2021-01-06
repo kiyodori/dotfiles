@@ -58,28 +58,5 @@
         "_ide_helper.php",
         "_ide_helper_models"
     ],
-    "phpcs.executablePath": "vendor/bin/phpcs",
-    "phpcs.enable": true,
-    "phpcs.autoConfigSearch": true,
-    "phpcs.standard": "./phpcs.xml",
-    "phpcs.showWarnings": true,
-    "phpcs.showSources": true,
-    "phpcs.ignorePatterns": [
-        "**/.git/**",
-        "**/.svn/**",
-        "**/.hg/**",
-        "**/CVS/**",
-        "**/.DS_Store/**",
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/storage/**",
-        "**/resources/views/**",
-        "**/database/migrations/**",
-        "**/tests/**",
-        "**/storage/framework/views/**",
-        "**/vendor",
-        "_ide_helper.php",
-        "_ide_helper_models"
-    ],
     "workbench.colorTheme": "GitHub Dark",
 }
