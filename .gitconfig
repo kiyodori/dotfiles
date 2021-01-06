@@ -7,6 +7,7 @@
 	co = checkout
 	st = status
 	br = branch
+	sw = switch
 [merge]
 	ff = false
 [pull]
