@@ -1,5 +1,4 @@
 bmewburn.vscode-intelephense-client
-ikappas.phpcs
 onecentlin.laravel5-snippets
 felixfbecker.php-debug
 DavidAnson.vscode-markdownlint
