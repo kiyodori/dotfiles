@@ -7,7 +7,6 @@
     "explorer.confirmDragAndDrop": false,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
     "editor.tabSize": 2,
-    "window.zoomLevel": 0,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
@@ -59,4 +58,8 @@
         "_ide_helper_models"
     ],
     "workbench.colorTheme": "GitHub Dark",
+    "editor.fontSize": 30,
+    "debug.console.fontSize": 30,
+    "terminal.integrated.fontSize": 30,
+    "window.zoomLevel": -3,
 }
