@@ -4,7 +4,6 @@ alias vi='vim'
 alias grep='grep --color'
 alias cdcode='cd ~/Documents/code'
 alias cdde='cd ~/Documents/code/dokugaku-engineer'
-alias cdlec='cd ~/Documents/code/lecture'
 
 # Global aliases
 alias -g L='| less'

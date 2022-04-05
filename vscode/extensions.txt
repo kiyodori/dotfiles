@@ -20,4 +20,3 @@ acidic9.p5js-snippets
 msjsdiag.debugger-for-chrome
 ritwickdey.liveserver
 ms-vscode-remote.vscode-remote-extensionpack
-
