@@ -7,4 +7,3 @@ export PATH="$PATH:`yarn global bin`"
 
 # coreutils用
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
-
