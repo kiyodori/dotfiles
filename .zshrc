@@ -39,6 +39,11 @@ else
 fi
 
 #
+# brew
+#
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+#
 # config
 #
 for conf in $HOME/.zshrc_config/zsh_*; do
