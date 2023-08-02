@@ -11,3 +11,8 @@ alias -g G='| grep'
 alias -g M='| more'
 alias -g H='| head'
 alias -g T='| tail'
+
+# Python
+alias python='python3'
+alias pip='pip3'
+
