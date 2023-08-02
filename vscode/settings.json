@@ -11,6 +11,9 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "[html]": {
+        "editor.tabSize": 2
+    },
     "[sass]": {
         "editor.tabSize": 2
     },
@@ -25,6 +28,9 @@
     },
     "[php]": {
         "editor.tabSize": 4
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
     },
     "emmet.triggerExpansionOnTab": true,
     "editor.codeActionsOnSave": {
@@ -59,5 +65,12 @@
         "_ide_helper_models"
     ],
     "workbench.colorTheme": "GitHub Dark",
-    "window.zoomLevel": 1,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "window.zoomLevel": 3,
 }
