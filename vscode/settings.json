@@ -3,7 +3,6 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "workbench.tree.indent": 14,
-    "workbench.editor.enablePreview": false,
     "explorer.confirmDragAndDrop": false,
     "editor.parameterHints.enabled": false,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
@@ -27,6 +26,9 @@
         "*.module": "php"
     },
     "[php]": {
+        "editor.tabSize": 4
+    },
+    "[python]": {
         "editor.tabSize": 4
     },
     "[ruby]": {
@@ -72,5 +74,6 @@
         "markdown": true,
         "scminput": false
     },
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 1,
+    "workbench.editor.enablePreview": false,
 }
