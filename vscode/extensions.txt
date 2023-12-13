@@ -9,7 +9,6 @@ octref.vetur
 yzhang.markdown-all-in-one
 ms-ceintl.vscode-language-pack-ja
 github.github-vscode-theme
-pkief.material-icon-theme
 oderwat.indent-rainbow
 streetsidesoftware.code-spell-checker
 donjayamanne.githistory
