@@ -12,3 +12,5 @@
 	ff = false
 [pull]
 	rebase = merges
+[init]
+	defaultBranch = main
