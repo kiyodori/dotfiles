@@ -54,3 +54,4 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/kiyoto/.antigravity/antigravity/bin:$PATH"
+eval "$(rbenv init - zsh)"
