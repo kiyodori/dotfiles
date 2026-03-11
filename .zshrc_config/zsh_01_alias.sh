@@ -5,6 +5,8 @@ alias grep='grep --color'
 alias cdcode='cd ~/Documents/code'
 alias cdde='cd ~/Documents/code/dokugaku-engineer'
 alias cdap='cd ~/Documents/code/apprentice'
+alias cddoc='cd ~/Documents/'
+alias cdnotes='cd ~/Documents/notes'
 
 # Global aliases
 alias -g L='| less'

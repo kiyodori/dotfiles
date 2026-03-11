@@ -21,6 +21,16 @@ $ brew install peco
 
 ### tmux
 
-````bash
+```bash
 $ brew install reattach-to-user-namespace
+```
+
+### Claude Code
+
+```bash
+cd ~/.claude
+for item in settings.json agents commands rules scripts skills; do
+  ln -sf "/Users/kiyoto/.dotfiles/.claude/$item" "$item"
+done
+ln -sf /Users/kiyoto/.dotfiles/.claude/user-CLAUDE.md ~/.claude/CLAUDE.md
 ```
