@@ -34,3 +34,12 @@ for item in settings.json agents commands rules scripts skills; do
 done
 ln -sf /Users/kiyoto/.dotfiles/.claude/user-CLAUDE.md ~/.claude/CLAUDE.md
 ```
+
+### Ghostty
+
+`bootstrap.sh` で `~/.config/ghostty/config` にシンボリックリンクが作成されます。
+
+Claude Code を Ghostty で使うときのキー操作:
+
+- **Option+Enter**: 改行
+- **Enter**: 送信

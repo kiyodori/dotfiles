@@ -19,3 +19,6 @@ done
 
 # vscode
 sh ~/.dotfiles/vscode/setup.sh
+
+# ghostty
+sh ~/.dotfiles/ghostty/setup.sh
