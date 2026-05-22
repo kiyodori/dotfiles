@@ -1,5 +1,68 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://en.wikiquote.org/wiki/Pope_Francis\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Nelson_Mandela&prop=wikitext&section=12&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\)[:3000]\\)\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Nelson_Mandela&prop=wikitext&section=3&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Elon_Musk&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Steve_Jobs&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Winston_Churchill&prop=wikitext&section=5&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\)[:5000]\\)\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Warren_Buffett&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Desmond_Tutu&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Pope_Francis&prop=wikitext&section=4&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Elon_Musk&prop=wikitext&section=5&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Steve_Jobs&prop=wikitext&section=3&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); t=d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\); print\\(t[5000:10000]\\)\")",
+      "Bash(curl -s \"https://ja.wikiquote.org/w/api.php?action=parse&page=%E6%9D%BE%E4%B8%8B%E5%B9%B8%E4%B9%8B%E5%8A%A9&prop=wikitext&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); t=d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\); print\\(t[:3000]\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.samurai-revolution.com)",
+      "WebFetch(domain:ryomado.com)",
+      "WebFetch(domain:gentosha-go.com)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "WebFetch(domain:openclaw-ai.com)",
+      "Bash(yt-dlp --video-password \"Hf9qSFwk\" --list-formats \"https://vimeo.com/1172793803\")",
+      "WebFetch(domain:www.weeklybcn.com)",
+      "WebFetch(domain:seleck.cc)",
+      "Bash(pandoc --version)",
+      "Bash(brew --version)",
+      "Bash(pandoc \"/Users/kiyoto/Documents/notes/PermanentNote/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.md\" -o \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\")",
+      "Read(//Users/kiyoto/Desktop/**)",
+      "Bash(pandoc -f markdown-auto_identifiers -t docx \"/Users/kiyoto/Documents/notes/PermanentNote/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.md\" -o \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\")",
+      "Bash(unzip -p \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\" word/document.xml)",
+      "Bash(gh auth *)",
+      "Bash(mv /Users/kiyoto/Documents/code/company-management-project /Users/kiyoto/Documents/code/ai-ceo-project)",
+      "Read(//Users/kiyoto/Documents/code/**)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh repo *)",
+      "Bash(ls -la ~/company-os 2>&1 | head -5; echo \"---\"; ls -la ~/Documents/company-os 2>&1 | head -5)",
+      "Read(//Users/kiyoto/**)",
+      "Bash(mv ~/Documents/company-os ~/company-os && ls -la ~/company-os | head -10 && echo \"---OLD---\" && ls -la ~/Documents/company-os 2>&1 | head -3)",
+      "Bash(grep -n \"予約中\\\\|キャンセル済[^み]\\\\|キャンセル済$\" /Users/kiyoto/Documents/code/training-center/quest/technologies/rails/APPLICATION_06_light.md)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(curl -s https://api.github.com/repos/vercel-labs/skills/contents/)",
+      "Bash(brew list *)",
+      "Bash(curl -s https://api.github.com/repos/vercel-labs/skills/contents/skills)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d['name'], d['type']\\) for d in data]\")",
+      "Bash(pdftotext -f 1 -l 20 \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\" -)",
+      "Bash(pdftotext -f 1 -l 30 \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\" /tmp/nouhin_p1_30.txt)",
+      "Read(//tmp/**)",
+      "Bash(pdfinfo \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\")",
+      "Bash(pdfimages -list \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\")"
+    ],
+    "additionalDirectories": [
+      "/Users/kiyoto/Documents/code/training-center/quest/technologies/html",
+      "/Users/kiyoto/Documents/code/ai-ceo-project",
+      "/Users/kiyoto"
+    ]
+  },
   "hooks": {
     "PreToolUse": [
       {
@@ -150,5 +213,6 @@
         ]
       }
     ]
-  }
+  },
+  "effortLevel": "xhigh"
 }
