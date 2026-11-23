@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {},
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://en.wikiquote.org/wiki/Pope_Francis\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Nelson_Mandela&prop=wikitext&section=12&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\)[:3000]\\)\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Nelson_Mandela&prop=wikitext&section=3&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Elon_Musk&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Steve_Jobs&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Winston_Churchill&prop=wikitext&section=5&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\)[:5000]\\)\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Warren_Buffett&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Desmond_Tutu&prop=wikitext&section=1&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Pope_Francis&prop=wikitext&section=4&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Elon_Musk&prop=wikitext&section=5&format=json\")",
+      "Bash(curl -s \"https://en.wikiquote.org/w/api.php?action=parse&page=Steve_Jobs&prop=wikitext&section=3&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); t=d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\); print\\(t[5000:10000]\\)\")",
+      "Bash(curl -s \"https://ja.wikiquote.org/w/api.php?action=parse&page=%E6%9D%BE%E4%B8%8B%E5%B9%B8%E4%B9%8B%E5%8A%A9&prop=wikitext&format=json\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); t=d.get\\(''''parse'''',{}\\).get\\(''''wikitext'''',{}\\).get\\(''''*'''',''''''''\\); print\\(t[:3000]\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.samurai-revolution.com)",
+      "WebFetch(domain:ryomado.com)",
+      "WebFetch(domain:gentosha-go.com)",
+      "WebFetch(domain:docs.openclaw.ai)",
+      "WebFetch(domain:openclaw-ai.com)",
+      "Bash(yt-dlp --video-password \"Hf9qSFwk\" --list-formats \"https://vimeo.com/1172793803\")",
+      "WebFetch(domain:www.weeklybcn.com)",
+      "WebFetch(domain:seleck.cc)",
+      "Bash(pandoc --version)",
+      "Bash(brew --version)",
+      "Bash(pandoc \"/Users/kiyoto/Documents/notes/PermanentNote/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.md\" -o \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\")",
+      "Read(//Users/kiyoto/Desktop/**)",
+      "Bash(pandoc -f markdown-auto_identifiers -t docx \"/Users/kiyoto/Documents/notes/PermanentNote/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.md\" -o \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\")",
+      "Bash(unzip -p \"/Users/kiyoto/Desktop/シニアエンジニアとジュニアエンジニアでのAIの活用方法の違い.docx\" word/document.xml)",
+      "Bash(gh auth *)",
+      "Bash(mv /Users/kiyoto/Documents/code/company-management-project /Users/kiyoto/Documents/code/ai-ceo-project)",
+      "Read(//Users/kiyoto/Documents/code/**)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh repo *)",
+      "Bash(ls -la ~/company-os 2>&1 | head -5; echo \"---\"; ls -la ~/Documents/company-os 2>&1 | head -5)",
+      "Read(//Users/kiyoto/**)",
+      "Bash(mv ~/Documents/company-os ~/company-os && ls -la ~/company-os | head -10 && echo \"---OLD---\" && ls -la ~/Documents/company-os 2>&1 | head -3)",
+      "Bash(grep -n \"予約中\\\\|キャンセル済[^み]\\\\|キャンセル済$\" /Users/kiyoto/Documents/code/training-center/quest/technologies/rails/APPLICATION_06_light.md)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(curl -s https://api.github.com/repos/vercel-labs/skills/contents/)",
+      "Bash(brew list *)",
+      "Bash(curl -s https://api.github.com/repos/vercel-labs/skills/contents/skills)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(d['name'], d['type']\\) for d in data]\")",
+      "Bash(pdftotext -f 1 -l 20 \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\" -)",
+      "Bash(pdftotext -f 1 -l 30 \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\" /tmp/nouhin_p1_30.txt)",
+      "Read(//tmp/**)",
+      "Bash(pdfinfo \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\")",
+      "Bash(pdfimages -list \"/Users/kiyoto/Documents/notes/PermanentNote/「納品」をなくせばうまくいく.pdf\")",
+      "Bash(lualatex --version)",
+      "Bash(python3 -c \"import weasyprint\")",
+      "Bash(pip3 list *)",
+      "Bash(pandoc --list-output-formats)",
+      "Bash(git -C /Users/kiyoto/Documents/code/youble-os log --all --oneline -- \"projects/engineering-secretary/contracts/signed/秘密保持契約書_20260522.pdf\")",
+      "Bash(git -C /Users/kiyoto/Documents/code/youble-os log --all --diff-filter=A --name-only --format=\"%H %s\" -- \"projects/engineering-secretary/contracts/signed/*\")",
+      "Bash(git -C /Users/kiyoto/Documents/code/youble-os log 36ad9e9 --format=\"%B\" -1)",
+      "Bash(git -C /Users/kiyoto/Documents/code/youble-os log --all --oneline -20)",
+      "Bash(mdls \"/Users/kiyoto/Documents/code/youble-os/projects/engineering-secretary/contracts/signed/秘密保持契約書_20260522.pdf\")",
+      "Bash(npx --yes puppeteer browsers ls)",
+      "Bash(node -e \"try { require\\('puppeteer'\\); console.log\\('puppeteer: installed'\\); } catch\\(e\\) { console.log\\('puppeteer: not found'\\); }\")",
+      "Bash(npx playwright *)",
+      "Bash(node -e \"try { require\\('playwright'\\); console.log\\('playwright: installed'\\); } catch\\(e\\) { console.log\\('playwright: not found'\\); }\")",
+      "Bash(ls \"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" 2>/dev/null && echo \"Chrome found\" || echo \"Chrome not found\")",
+      "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
+      "Bash(pandoc /Users/kiyoto/Documents/code/youble-os/projects/engineering-secretary/contracts/signed/2026-05-22-kingprinters-nda.md --from markdown --to html5 --standalone --metadata title=秘密保持契約書 -V lang=ja --css /dev/null -o /tmp/nda-kingprinters.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --no-sandbox --print-to-pdf=/Users/kiyoto/Documents/code/youble-os/projects/engineering-secretary/contracts/signed/秘密保持契約書_20260522.pdf --print-to-pdf-no-header /tmp/nda-kingprinters.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --disable-gpu --no-sandbox --print-to-pdf=/Users/kiyoto/Documents/code/youble-os/projects/engineering-secretary/contracts/signed/秘密保持契約書_20260522.pdf --no-pdf-header-footer /tmp/nda-kingprinters.html)",
+      "WebFetch(domain:mitchellh.com)",
+      "WebFetch(domain:www.humanlayer.dev)",
+      "WebFetch(domain:howborisusesclaudecode.com)",
+      "WebFetch(domain:simonwillison.net)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:www.franksworld.com)",
+      "WebFetch(domain:travis.media)",
+      "WebFetch(domain:www.teamday.ai)",
+      "WebFetch(domain:research.trychroma.com)",
+      "WebFetch(domain:www.trychroma.com)",
+      "Bash(sort -t: -k1,1)",
+      "Bash(git mv *)",
+      "Bash(mv \"projects/engineering-secretary/sources/research/2026-05-26-印刷業におけるAI改革.md\" \"projects/engineering-secretary/sources/research/ai-dx-in-printing-industry.md\")"
+    ],
+    "additionalDirectories": [
+      "/Users/kiyoto/Documents/code/training-center/quest/technologies/html",
+      "/Users/kiyoto/Documents/code/ai-ceo-project",
+      "/Users/kiyoto",
+      "/tmp",
+      "/private/tmp",
+      "/Users/kiyoto/Documents/code/youble-os/projects/engineering-secretary/sources/research"
+    ]
+  },
+  "model": "sonnet",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "tool == \"Bash\" && tool_input.command matches \"(npm run dev|pnpm( run)? dev|yarn dev|bun run dev)\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"console.error('[Hook] BLOCKED: Dev server must run in tmux for log access');console.error('[Hook] Use: tmux new-session -d -s dev \\\"npm run dev\\\"');console.error('[Hook] Then: tmux attach -t dev');process.exit(1)\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Bash\" && tool_input.command matches \"(npm (install|test)|pnpm (install|test)|yarn (install|test)?|bun (install|test)|cargo build|make|docker|pytest|vitest|playwright)\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"if(!process.env.TMUX){console.error('[Hook] Consider running in tmux for session persistence');console.error('[Hook] tmux new -s dev  |  tmux attach -t dev')}\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Bash\" && tool_input.command matches \"git push\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"console.error('[Hook] Review changes before push...');console.error('[Hook] Continuing with push (remove this hook to add interactive review)')\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Write\" && tool_input.file_path matches \"\\\\.(md|txt)$\" && !(tool_input.file_path matches \"README\\\\.md|CLAUDE\\\\.md|AGENTS\\\\.md|CONTRIBUTING\\\\.md\")",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const fs=require('fs');let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const i=JSON.parse(d);const p=i.tool_input?.file_path||'';if(/\\.(md|txt)$/.test(p)&&!/(README|CLAUDE|AGENTS|CONTRIBUTING)\\.md$/.test(p)){console.error('[Hook] BLOCKED: Unnecessary documentation file creation');console.error('[Hook] File: '+p);console.error('[Hook] Use README.md for documentation instead');process.exit(1)}console.log(d)})\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Edit\" || tool == \"Write\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/suggest-compact.js\""
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/pre-compact.js\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/session-start.js\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "tool == \"Bash\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const i=JSON.parse(d);const cmd=i.tool_input?.command||'';if(/gh pr create/.test(cmd)){const out=i.tool_output?.output||'';const m=out.match(/https:\\/\\/github.com\\/[^/]+\\/[^/]+\\/pull\\/\\d+/);if(m){console.error('[Hook] PR created: '+m[0]);const repo=m[0].replace(/https:\\/\\/github.com\\/([^/]+\\/[^/]+)\\/pull\\/\\d+/,'$1');const pr=m[0].replace(/.*\\/pull\\/(\\d+)/,'$1');console.error('[Hook] To review: gh pr review '+pr+' --repo '+repo)}}console.log(d)})\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Bash\" && tool_input.command matches \"(npm run build|pnpm build|yarn build)\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{console.error('[Hook] Build completed - async analysis running in background');console.log(d)})\"",
+            "timeout": 30,
+            "async": true
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Edit\" && tool_input.file_path matches \"\\\\.(ts|tsx|js|jsx)$\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const{execSync}=require('child_process');const fs=require('fs');let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const i=JSON.parse(d);const p=i.tool_input?.file_path;if(p&&fs.existsSync(p)){try{execSync('npx prettier --write \"'+p+'\"',{stdio:['pipe','pipe','pipe']})}catch(e){}}console.log(d)})\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Edit\" && tool_input.file_path matches \"\\\\.(ts|tsx)$\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const{execSync}=require('child_process');const fs=require('fs');const path=require('path');let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const i=JSON.parse(d);const p=i.tool_input?.file_path;if(p&&fs.existsSync(p)){let dir=path.dirname(p);while(dir!==path.dirname(dir)&&!fs.existsSync(path.join(dir,'tsconfig.json'))){dir=path.dirname(dir)}if(fs.existsSync(path.join(dir,'tsconfig.json'))){try{const r=execSync('npx tsc --noEmit --pretty false 2>&1',{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe']});const lines=r.split('\\n').filter(l=>l.includes(p)).slice(0,10);if(lines.length)console.error(lines.join('\\n'))}catch(e){const lines=(e.stdout||'').split('\\n').filter(l=>l.includes(p)).slice(0,10);if(lines.length)console.error(lines.join('\\n'))}}}console.log(d)})\""
+          }
+        ]
+      },
+      {
+        "matcher": "tool == \"Edit\" && tool_input.file_path matches \"\\\\.(ts|tsx|js|jsx)$\"",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const fs=require('fs');let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{const i=JSON.parse(d);const p=i.tool_input?.file_path;if(p&&fs.existsSync(p)){const c=fs.readFileSync(p,'utf8');const lines=c.split('\\n');const matches=[];lines.forEach((l,idx)=>{if(/console\\.log/.test(l))matches.push((idx+1)+': '+l.trim())});if(matches.length){console.error('[Hook] WARNING: console.log found in '+p);matches.slice(0,5).forEach(m=>console.error(m));console.error('[Hook] Remove console.log before committing')}}console.log(d)})\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/check-console-log.js\""
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/session-end.js\""
+          }
+        ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$HOME/.claude/scripts/hooks/evaluate-session.js\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "commercial-legal@claude-for-legal": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-for-legal": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/kiyoto/claude-for-legal"
+      }
+    }
+  },
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "tui": "fullscreen",
+  "skipWorkflowUsageWarning": true,
+  "autoMode": {
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: Private — kiyodori/wiki (github.com)",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured",
+      "**Default / protected branches**: Default branch unknown (origin/HEAD unset); no rulesets or protected branches listed via gh for kiyodori/wiki",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Source control**: The trusted repo (kiyodori/wiki) and its remote (https://github.com/kiyodori/wiki.git) only — no additional orgs configured",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: any file or store holding personal data, confidential business data, credentials, regulated data, or similarly sensitive material; preserve exact handles when known and share only with audiences cleared at the [named+specifics] bar",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment (hyphen/underscore/dot-delimited)",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment",
+      "### User-specific",
+      "**Primary use of Claude Code**: personal knowledge-base maintenance (LLM-maintained Obsidian wiki at /Users/kiyoto/Documents/wiki) — reading/summarizing raw sources into wiki/, never editing raw/",
+      "**Trusted repo**: /Users/kiyoto/Documents/wiki (private, remote https://github.com/kiyodori/wiki.git) — confidential personal material is fine to commit here given private visibility; secrets and credentials are never cleared in regardless of visibility",
+      "**Org-specific CLIs**: None configured",
+      "routine under /Users/kiyoto/Documents/wiki/ prefix: reading raw/ sources and writing/updating wiki/ pages per CLAUDE.md workflow (ingest, query, lint)"
+    ]
+  }
+}

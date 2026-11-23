@@ -12,4 +12,4 @@ export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export PATH="$HOME/.local/bin:$PATH"
 
 # brew用
-eval "$(/opt/homebrew/bin/brew shellenv)
+eval "$(/opt/homebrew/bin/brew shellenv)"

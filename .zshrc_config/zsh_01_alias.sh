@@ -5,10 +5,10 @@ alias grep='grep --color'
 alias cddoc='cd ~/Documents/'
 alias cdcode='cd ~/Documents/code'
 alias cdnotes='cd ~/Documents/notes'
+alias cdyouble='cd ~/Documents/youble-os'
 alias cdwiki='cd ~/Documents/wiki'
 alias cdde='cd ~/Documents/code/dokugaku-engineer'
 alias cdap='cd ~/Documents/code/apprentice'
-alias cdyouble='cd ~/Documents/code/youble-os'
 
 # Global aliases
 alias -g L='| less'
